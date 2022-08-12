@@ -4,10 +4,10 @@ This modified project contains only the source code of the angular application
 and contains a docker file to build a container and run the application
 
 ## build the docker image
-docker build . -t diego/cypress_udemy_course
+`docker build . -t diego/cypress_udemy_course`
 
 ## Run the docker container
-docker run -p 4200:4200 -d diego/cypress_udemy_course
+`docker run -p 4200:4200 -d diego/cypress_udemy_course`
 
 
 
